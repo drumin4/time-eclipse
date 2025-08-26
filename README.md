@@ -106,5 +106,5 @@ Some of the best realizations I have achieved are:
 
 
 ## 🚀 About Me
-I'm a young, ambitious self-taught programmer, looking forward to getting out of my comfort zone and achieving great things along other inspiring programmers. 
+I'm a young, ambitious programmer, looking forward to getting out of my comfort zone and achieving great things along other inspiring programmers. 
 
