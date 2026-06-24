@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\ProductivityTracker.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker.csproj": {
+    "C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\ProductivityTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\ProductivityTracker.csproj",
         "projectName": "ProductivityTracker",
-        "projectPath": "D:\\MyProjects\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker.csproj",
-        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\ProductivityTracker\\ProductivityTracker\\ProductivityTracker\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\ProductivityTracker.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\New folder\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,11 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\New folder\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net472": {
+            "framework": "net472",
             "targetAlias": "net472",
             "projectReferences": {}
           }
@@ -39,10 +35,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net472": {
+          "framework": "net472",
           "targetAlias": "net472",
           "dependencies": {
             "Guna.UI2.WinForms": {
@@ -66,11 +69,11 @@
               "version": "[7.0.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
-        "win7-x86": {
+        "win-x86": {
           "#import": []
         }
       }

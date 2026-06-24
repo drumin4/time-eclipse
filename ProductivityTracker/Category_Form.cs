@@ -36,7 +36,7 @@ namespace ProductivityTracker
 
         public void InsertInImageTable(string fileName, string filePath, byte[] image)
         {
-            using (SqlConnection cn = new SqlConnection("Data Source=.;Initial Catalog=TimeEclipseDb;Integrated Security=True"))
+            using (SqlConnection cn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=TimeEclipseDb;Integrated Security=True;TrustServerCertificate=True"))
             {
                 if(cn.State == ConnectionState.Closed)
                 {
@@ -177,7 +177,7 @@ namespace ProductivityTracker
 
         public void InsertInCategoryTable(string fileName, string filePath, string categoryTargetTime, byte[] image)
         {
-            using (SqlConnection cn = new SqlConnection("Data Source=.;Initial Catalog=TimeEclipseDb;Integrated Security=True"))
+            using (SqlConnection cn = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=TimeEclipseDb;Integrated Security=True;TrustServerCertificate=True"))
             {
                 if (cn.State == ConnectionState.Closed)
                 {

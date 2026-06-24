@@ -18,7 +18,7 @@ namespace ProductivityTracker
 
         public GlobalConfig()
         {
-            connectionString = "Data Source=.;Initial Catalog=TimeEclipseDb;Integrated Security=True";
+            connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=TimeEclipseDb;Integrated Security=True;TrustServerCertificate=True";
         }
 
         public DataTable GetData(string Query)

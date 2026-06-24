@@ -99,10 +99,10 @@
             this.panelLayout.Controls.Add(this.label3);
             this.panelLayout.Controls.Add(this.label1);
             this.panelLayout.Controls.Add(this.label2);
-            this.panelLayout.Location = new System.Drawing.Point(0, 35);
-            this.panelLayout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelLayout.Location = new System.Drawing.Point(0, 42);
+            this.panelLayout.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panelLayout.Name = "panelLayout";
-            this.panelLayout.Size = new System.Drawing.Size(836, 504);
+            this.panelLayout.Size = new System.Drawing.Size(1003, 605);
             this.panelLayout.TabIndex = 1;
             // 
             // label4
@@ -110,9 +110,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(439, 29);
+            this.label4.Location = new System.Drawing.Point(527, 35);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(358, 44);
+            this.label4.Size = new System.Drawing.Size(434, 52);
             this.label4.TabIndex = 36;
             this.label4.Text = "Create New Account";
             // 
@@ -120,10 +121,10 @@
             // 
             this.panelRegisterPasswordError.Controls.Add(this.label9);
             this.panelRegisterPasswordError.Controls.Add(this.pictureBox2);
-            this.panelRegisterPasswordError.Location = new System.Drawing.Point(449, 322);
-            this.panelRegisterPasswordError.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelRegisterPasswordError.Location = new System.Drawing.Point(539, 386);
+            this.panelRegisterPasswordError.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panelRegisterPasswordError.Name = "panelRegisterPasswordError";
-            this.panelRegisterPasswordError.Size = new System.Drawing.Size(330, 34);
+            this.panelRegisterPasswordError.Size = new System.Drawing.Size(396, 41);
             this.panelRegisterPasswordError.TabIndex = 35;
             this.panelRegisterPasswordError.Visible = false;
             // 
@@ -132,9 +133,10 @@
             this.label9.BackColor = System.Drawing.Color.SandyBrown;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label9.Location = new System.Drawing.Point(25, 0);
+            this.label9.Location = new System.Drawing.Point(30, 0);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(305, 34);
+            this.label9.Size = new System.Drawing.Size(366, 41);
             this.label9.TabIndex = 29;
             this.label9.Text = "Use 8 characters or more for your password.";
             // 
@@ -142,9 +144,9 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(-2, -2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 20);
+            this.pictureBox2.Size = new System.Drawing.Size(30, 24);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
@@ -153,10 +155,10 @@
             // 
             this.panelRegisterUsernameError.Controls.Add(this.labelRegisterUsernameError);
             this.panelRegisterUsernameError.Controls.Add(this.pictureBox6);
-            this.panelRegisterUsernameError.Location = new System.Drawing.Point(449, 257);
-            this.panelRegisterUsernameError.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelRegisterUsernameError.Location = new System.Drawing.Point(539, 308);
+            this.panelRegisterUsernameError.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panelRegisterUsernameError.Name = "panelRegisterUsernameError";
-            this.panelRegisterUsernameError.Size = new System.Drawing.Size(330, 34);
+            this.panelRegisterUsernameError.Size = new System.Drawing.Size(396, 41);
             this.panelRegisterUsernameError.TabIndex = 34;
             this.panelRegisterUsernameError.Visible = false;
             // 
@@ -165,9 +167,10 @@
             this.labelRegisterUsernameError.BackColor = System.Drawing.Color.SandyBrown;
             this.labelRegisterUsernameError.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.labelRegisterUsernameError.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelRegisterUsernameError.Location = new System.Drawing.Point(25, 0);
+            this.labelRegisterUsernameError.Location = new System.Drawing.Point(30, 0);
+            this.labelRegisterUsernameError.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRegisterUsernameError.Name = "labelRegisterUsernameError";
-            this.labelRegisterUsernameError.Size = new System.Drawing.Size(305, 34);
+            this.labelRegisterUsernameError.Size = new System.Drawing.Size(366, 41);
             this.labelRegisterUsernameError.TabIndex = 29;
             this.labelRegisterUsernameError.Text = "Sorry, your username must be between 6 and 30 characters long.";
             // 
@@ -175,9 +178,9 @@
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(-2, -2);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(25, 20);
+            this.pictureBox6.Size = new System.Drawing.Size(30, 24);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 30;
             this.pictureBox6.TabStop = false;
@@ -188,9 +191,10 @@
             this.labelLoginUsernameOrPasswordError.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelLoginUsernameOrPasswordError.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.labelLoginUsernameOrPasswordError.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.labelLoginUsernameOrPasswordError.Location = new System.Drawing.Point(25, 302);
+            this.labelLoginUsernameOrPasswordError.Location = new System.Drawing.Point(30, 362);
+            this.labelLoginUsernameOrPasswordError.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelLoginUsernameOrPasswordError.Name = "labelLoginUsernameOrPasswordError";
-            this.labelLoginUsernameOrPasswordError.Size = new System.Drawing.Size(332, 37);
+            this.labelLoginUsernameOrPasswordError.Size = new System.Drawing.Size(398, 44);
             this.labelLoginUsernameOrPasswordError.TabIndex = 33;
             this.labelLoginUsernameOrPasswordError.Text = "Incorrect username or password. Try again.";
             this.labelLoginUsernameOrPasswordError.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -209,10 +213,10 @@
             this.buttonLogin.FillColor = System.Drawing.Color.PeachPuff;
             this.buttonLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold);
             this.buttonLogin.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonLogin.Location = new System.Drawing.Point(25, 235);
-            this.buttonLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonLogin.Location = new System.Drawing.Point(30, 282);
+            this.buttonLogin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(332, 47);
+            this.buttonLogin.Size = new System.Drawing.Size(398, 56);
             this.buttonLogin.TabIndex = 9;
             this.buttonLogin.Text = "Login";
             this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
@@ -223,9 +227,10 @@
             this.labelGoToRegister.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelGoToRegister.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.labelGoToRegister.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelGoToRegister.Location = new System.Drawing.Point(10, 465);
+            this.labelGoToRegister.Location = new System.Drawing.Point(12, 558);
+            this.labelGoToRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGoToRegister.Name = "labelGoToRegister";
-            this.labelGoToRegister.Size = new System.Drawing.Size(361, 25);
+            this.labelGoToRegister.Size = new System.Drawing.Size(446, 30);
             this.labelGoToRegister.TabIndex = 5;
             this.labelGoToRegister.Text = "Don\'t have an account yet? Sign up >>";
             this.labelGoToRegister.Click += new System.EventHandler(this.labelGoToRegister_Click);
@@ -243,10 +248,10 @@
             this.buttonRegister.FillColor = System.Drawing.Color.PeachPuff;
             this.buttonRegister.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold);
             this.buttonRegister.ForeColor = System.Drawing.Color.DarkRed;
-            this.buttonRegister.Location = new System.Drawing.Point(449, 373);
-            this.buttonRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonRegister.Location = new System.Drawing.Point(539, 448);
+            this.buttonRegister.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.buttonRegister.Name = "buttonRegister";
-            this.buttonRegister.Size = new System.Drawing.Size(333, 47);
+            this.buttonRegister.Size = new System.Drawing.Size(400, 56);
             this.buttonRegister.TabIndex = 20;
             this.buttonRegister.Text = "Register";
             this.buttonRegister.Click += new System.EventHandler(this.buttonRegister_Click);
@@ -257,9 +262,10 @@
             this.labelGoToLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelGoToLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.labelGoToLogin.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelGoToLogin.Location = new System.Drawing.Point(443, 465);
+            this.labelGoToLogin.Location = new System.Drawing.Point(532, 558);
+            this.labelGoToLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGoToLogin.Name = "labelGoToLogin";
-            this.labelGoToLogin.Size = new System.Drawing.Size(333, 25);
+            this.labelGoToLogin.Size = new System.Drawing.Size(414, 30);
             this.labelGoToLogin.TabIndex = 19;
             this.labelGoToLogin.Text = "<< Have an account already? Log in";
             this.labelGoToLogin.Click += new System.EventHandler(this.labelGoToLogin_Click);
@@ -267,19 +273,19 @@
             // textBoxPasswordRegister
             // 
             this.textBoxPasswordRegister.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.textBoxPasswordRegister.Location = new System.Drawing.Point(587, 294);
-            this.textBoxPasswordRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxPasswordRegister.Location = new System.Drawing.Point(704, 353);
+            this.textBoxPasswordRegister.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.textBoxPasswordRegister.Name = "textBoxPasswordRegister";
-            this.textBoxPasswordRegister.Size = new System.Drawing.Size(194, 29);
+            this.textBoxPasswordRegister.Size = new System.Drawing.Size(232, 33);
             this.textBoxPasswordRegister.TabIndex = 18;
             // 
             // textBoxUsernameRegister
             // 
             this.textBoxUsernameRegister.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.textBoxUsernameRegister.Location = new System.Drawing.Point(587, 230);
-            this.textBoxUsernameRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxUsernameRegister.Location = new System.Drawing.Point(704, 276);
+            this.textBoxUsernameRegister.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.textBoxUsernameRegister.Name = "textBoxUsernameRegister";
-            this.textBoxUsernameRegister.Size = new System.Drawing.Size(194, 29);
+            this.textBoxUsernameRegister.Size = new System.Drawing.Size(232, 33);
             this.textBoxUsernameRegister.TabIndex = 17;
             // 
             // label7
@@ -287,9 +293,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.DarkRed;
-            this.label7.Location = new System.Drawing.Point(442, 291);
+            this.label7.Location = new System.Drawing.Point(530, 349);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 31);
+            this.label7.Size = new System.Drawing.Size(152, 37);
             this.label7.TabIndex = 16;
             this.label7.Text = "Password";
             // 
@@ -298,28 +305,29 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.DarkRed;
-            this.label8.Location = new System.Drawing.Point(442, 227);
+            this.label8.Location = new System.Drawing.Point(530, 272);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(130, 31);
+            this.label8.Size = new System.Drawing.Size(159, 37);
             this.label8.TabIndex = 15;
             this.label8.Text = "Username";
             // 
             // textBoxLastNameRegister
             // 
             this.textBoxLastNameRegister.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.textBoxLastNameRegister.Location = new System.Drawing.Point(587, 167);
-            this.textBoxLastNameRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxLastNameRegister.Location = new System.Drawing.Point(704, 200);
+            this.textBoxLastNameRegister.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.textBoxLastNameRegister.Name = "textBoxLastNameRegister";
-            this.textBoxLastNameRegister.Size = new System.Drawing.Size(194, 29);
+            this.textBoxLastNameRegister.Size = new System.Drawing.Size(232, 33);
             this.textBoxLastNameRegister.TabIndex = 14;
             // 
             // textBoxFirstNameRegister
             // 
             this.textBoxFirstNameRegister.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.textBoxFirstNameRegister.Location = new System.Drawing.Point(588, 104);
-            this.textBoxFirstNameRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxFirstNameRegister.Location = new System.Drawing.Point(706, 125);
+            this.textBoxFirstNameRegister.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.textBoxFirstNameRegister.Name = "textBoxFirstNameRegister";
-            this.textBoxFirstNameRegister.Size = new System.Drawing.Size(194, 29);
+            this.textBoxFirstNameRegister.Size = new System.Drawing.Size(232, 33);
             this.textBoxFirstNameRegister.TabIndex = 13;
             // 
             // label5
@@ -327,9 +335,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.DarkRed;
-            this.label5.Location = new System.Drawing.Point(442, 164);
+            this.label5.Location = new System.Drawing.Point(530, 197);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(137, 31);
+            this.label5.Size = new System.Drawing.Size(166, 37);
             this.label5.TabIndex = 12;
             this.label5.Text = "Last Name";
             // 
@@ -338,29 +347,30 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.DarkRed;
-            this.label6.Location = new System.Drawing.Point(443, 101);
+            this.label6.Location = new System.Drawing.Point(532, 121);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(141, 31);
+            this.label6.Size = new System.Drawing.Size(171, 37);
             this.label6.TabIndex = 11;
             this.label6.Text = "First Name";
             // 
             // textBoxPasswordLogin
             // 
             this.textBoxPasswordLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.textBoxPasswordLogin.Location = new System.Drawing.Point(163, 167);
-            this.textBoxPasswordLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxPasswordLogin.Location = new System.Drawing.Point(196, 200);
+            this.textBoxPasswordLogin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.textBoxPasswordLogin.Name = "textBoxPasswordLogin";
-            this.textBoxPasswordLogin.Size = new System.Drawing.Size(194, 29);
+            this.textBoxPasswordLogin.Size = new System.Drawing.Size(232, 33);
             this.textBoxPasswordLogin.TabIndex = 7;
             this.textBoxPasswordLogin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxPasswordLogin_KeyDown);
             // 
             // textBoxUsernameLogin
             // 
             this.textBoxUsernameLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.textBoxUsernameLogin.Location = new System.Drawing.Point(163, 104);
-            this.textBoxUsernameLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxUsernameLogin.Location = new System.Drawing.Point(196, 125);
+            this.textBoxUsernameLogin.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.textBoxUsernameLogin.Name = "textBoxUsernameLogin";
-            this.textBoxUsernameLogin.Size = new System.Drawing.Size(194, 29);
+            this.textBoxUsernameLogin.Size = new System.Drawing.Size(232, 33);
             this.textBoxUsernameLogin.TabIndex = 6;
             this.textBoxUsernameLogin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxUsernameLogin_KeyDown);
             // 
@@ -369,9 +379,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(18, 164);
+            this.label3.Location = new System.Drawing.Point(22, 197);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 31);
+            this.label3.Size = new System.Drawing.Size(152, 37);
             this.label3.TabIndex = 4;
             this.label3.Text = "Password";
             // 
@@ -380,9 +391,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
-            this.label1.Location = new System.Drawing.Point(18, 101);
+            this.label1.Location = new System.Drawing.Point(22, 121);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 31);
+            this.label1.Size = new System.Drawing.Size(159, 37);
             this.label1.TabIndex = 3;
             this.label1.Text = "Username";
             // 
@@ -391,9 +403,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(62, 29);
+            this.label2.Location = new System.Drawing.Point(74, 35);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 44);
+            this.label2.Size = new System.Drawing.Size(314, 52);
             this.label2.TabIndex = 2;
             this.label2.Text = "Account Login";
             // 
@@ -401,9 +414,9 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 36);
+            this.pictureBox1.Size = new System.Drawing.Size(49, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
@@ -422,9 +435,9 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(383, 37);
+            this.panel2.Size = new System.Drawing.Size(471, 44);
             this.panel2.TabIndex = 2;
             this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
             // 
@@ -433,10 +446,10 @@
             this.buttonMinimize.BackColor = System.Drawing.Color.Transparent;
             this.buttonMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonMinimize.Location = new System.Drawing.Point(309, 4);
-            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonMinimize.Location = new System.Drawing.Point(371, 5);
+            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.buttonMinimize.Name = "buttonMinimize";
-            this.buttonMinimize.Size = new System.Drawing.Size(29, 29);
+            this.buttonMinimize.Size = new System.Drawing.Size(35, 35);
             this.buttonMinimize.TabIndex = 22;
             this.buttonMinimize.UseVisualStyleBackColor = false;
             this.buttonMinimize.Click += new System.EventHandler(this.buttonMinimize_Click);
@@ -446,10 +459,10 @@
             this.buttonClose.BackColor = System.Drawing.Color.Transparent;
             this.buttonClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonClose.Location = new System.Drawing.Point(346, 4);
-            this.buttonClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonClose.Location = new System.Drawing.Point(415, 5);
+            this.buttonClose.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(29, 29);
+            this.buttonClose.Size = new System.Drawing.Size(35, 35);
             this.buttonClose.TabIndex = 21;
             this.buttonClose.UseVisualStyleBackColor = false;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
@@ -476,14 +489,14 @@
             // 
             // LoginOrRegister_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(383, 540);
+            this.ClientSize = new System.Drawing.Size(471, 648);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelLayout);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "LoginOrRegister_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginOrRegister_Form";

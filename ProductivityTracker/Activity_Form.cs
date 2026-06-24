@@ -44,7 +44,7 @@ namespace ProductivityTracker
         
         private void SetWatchFont()
         {
-            pfc.AddFontFile(@"D:\MyProjects\ProductivityTracker\Font\LCDMono2 Bold.ttf");
+            pfc.AddFontFile(@"C:\Users\USER\source\repos\drumin4\time-eclipse\ProductivityTracker\font\LCDMono2 Bold.ttf");
             labelWatch.Font = new Font(pfc.Families[0], 35, FontStyle.Bold);
         }
 

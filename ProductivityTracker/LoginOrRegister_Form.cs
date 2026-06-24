@@ -26,15 +26,15 @@ namespace ProductivityTracker
 
         private void LoginOrRegister_Form_Load(object sender, EventArgs e)
         {
-            buttonClose.BackgroundImage = Image.FromFile("D:\\MyProjects\\ProductivityTracker\\Images\\X_Image.png");
+            buttonClose.BackgroundImage = Image.FromFile("C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\img\\X_Image.png");
             buttonClose.BackgroundImageLayout = ImageLayout.Zoom;
-            buttonMinimize.BackgroundImage = Image.FromFile("D:\\MyProjects\\ProductivityTracker\\Images\\-_Image.png");
+            buttonMinimize.BackgroundImage = Image.FromFile("C:\\Users\\USER\\source\\repos\\drumin4\\time-eclipse\\ProductivityTracker\\img\\-_Image.png");
             buttonMinimize.BackgroundImageLayout = ImageLayout.Zoom;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if(panelLayout.Location.X > -418)
+            if(panelLayout.Location.X > -500)
             {
                 panelLayout.Location = new Point(panelLayout.Location.X - 8, panelLayout.Location.Y);
             }
